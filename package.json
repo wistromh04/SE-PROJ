@@ -1,0 +1,22 @@
+{
+  "name": "workout-tracker-sqlite",
+  "version": "1.0.0",
+  "description": "Workout tracker with exercises, sets, reps, and weights",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["workout", "tracker", "exercise", "fitness", "sqlite"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
